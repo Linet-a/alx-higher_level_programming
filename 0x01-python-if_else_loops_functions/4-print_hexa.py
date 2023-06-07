@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in range(99):
-    print("{:<3} = {:02X}".format(i, i)
+    print('{0} = {1}'.format(i, hex(i)))
