@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-for i in range(100):
-    if i < 10:
-        print('0{}, '.format(i))
-    else:
-        print('{}, '.format(i))
+for i in range(99):
+    print("{:02d}".format(i), end=', ')
+print("{:02d}".format(i + 1)
