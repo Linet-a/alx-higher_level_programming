@@ -1,3 +1,3 @@
 def square_matrix_simple(matrix=[]):
-    squared_matrix = [[x ** 2 for num in sublist] for sublist in matrix]
+    squared = list(map(lambda row: list(map(lambda i: i ** 2, row)) matrix)
     return squared_matrix
