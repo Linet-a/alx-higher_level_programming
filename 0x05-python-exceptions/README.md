@@ -1,1 +1,1 @@
-0x05. Python - Exceptions- error handling
+0x05. Python - Exceptions
