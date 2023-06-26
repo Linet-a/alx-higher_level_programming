@@ -1,1 +1,1 @@
-0x05. Python - Exceptions- alx project of error handling
+0x05. Python - Exceptions- error handling
