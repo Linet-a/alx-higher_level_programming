@@ -10,9 +10,9 @@ def add_integer(a, b=98):
     if type(a) in (float, int):
         int(a)
     else:
-        raise ValueError("a must be an interger")
+        raise TypeError("a must be an interger")
     if type(b) in (float, int):
         int(b)
     else:
-        raise ValueError("b must be an interger")
+        raise TypeError("b must be an interger")
     return a + b
