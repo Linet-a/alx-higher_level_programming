@@ -7,12 +7,12 @@ adds two intergers a and b
 
 def add_integer(a, b=98):
     """Returns addition of two numbers"""
-    if type(a) in (float, int):
-        int(a)
+    if isinstance(a) in (float, int):
+        a = int(a)
     else:
         raise TypeError("a must be an interger")
-    if type(b) in (float, int):
-        int(b)
+    if isinstance(b) in (float, int):
+        b = int(b)
     else:
         raise TypeError("b must be an interger")
     return a + b
