@@ -17,12 +17,13 @@ def matrix_divide(matrix, div):
             raise TypeError("Each row of the matrix must have the same siz\
                                                                         e")
     if not isinstance(div, (int, float)):
-            raise TypeError("div must be a number")
+        raise TypeError("div must be a number")
     if div == 0:
         raise ZeroDivisionError("division by zero")
 
     new_matrix = []
     for sublist in matrix:
-        new-sublist = [i / div for i in sublist]
-        return round(new_matrix, 2)
-        new-matrix.append(new_sublist)
+        new_sublist = [i / div for i in sublist]
+        new_matrix.append(new_sublist)
+
+    return round(new_matrix, 2)
