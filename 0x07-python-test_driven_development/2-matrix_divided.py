@@ -23,7 +23,7 @@ def matrix_divide(matrix, div):
 
     new_matrix = []
     for sublist in matrix:
-        new_sublist = [i / div for i in sublist]
+        new_sublist = [round(i / div, 2) for i in sublist]
         new_matrix.append(new_sublist)
 
-    return round(new_matrix, 2)
+    return new_matrix
